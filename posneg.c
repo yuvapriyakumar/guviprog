@@ -3,12 +3,8 @@
 int main()
 {
     int num;
-     
-    /* Read number from user */
     printf("Enter any number: ");
     scanf("%d", &num);
-     
- 
     if(num > 0)
     {
         printf("Number is POSITIVE");
@@ -21,6 +17,5 @@ int main()
     {
         printf("Number is ZERO");
     }
- 
     return 0;
 } 
