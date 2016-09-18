@@ -1,0 +1,32 @@
+<html>
+<body style="background-color:grey">
+<form name="f">
+<pre><input type="text" name="t1" size="26" style="border-color:blue">
+
+<table border="1" style="border-color:blue"></pre>
+<tr>
+<td style="padding:5px"><input type="button" value="1" onclick="document.f.t1.value+='1'"></td>
+<td style="padding:5px"><input type="button" value="2" onclick="document.f.t1.value+='2'"></td>
+<td style="padding:5px"><input type="button" value="3" onclick="document.f.t1.value+='3'"></td>
+<td style="padding:5px"><input type="button" value="+" onclick="document.f.t1.value+='+'"></td>
+</tr>
+<tr>
+<td style="padding:5px"><input type="button" value="4" onclick="document.f.t1.value+='4'"></td>
+<td style="padding:5px"><input type="button" value="5" onclick="document.f.t1.value+='5'"></td>
+<td style="padding:5px"><input type="button" value="6" onclick="document.f.t1.value+='6'"></td>
+<td style="padding:5px"><input type="button" value="-" onclick="document.f.t1.value+='-'"></td>
+</tr>
+<tr>
+<td style="padding:5px"><input type="button" value="7" onclick="document.f.t1.value+='7'"></td>
+<td style="padding:5px"><input type="button" value="8" onclick="document.f.t1.value+='8'"></td>
+<td style="padding:5px"><input type="button" value="9" onclick="document.f.t1.value+='9'"></td>
+<td style="padding:5px"><input type="button" value="*" onclick="document.f.t1.value+='*'"></td>
+</tr>
+<tr>
+<td style="padding:5px"><input type="reset" value="c"></td>
+<td style="padding:5px"><input type="button" value="0" onclick="document.f.t1.value+='0'"></td>
+<td style="padding:5px"><input type="button" value="=" onclick="document.f.t1.value=eval(document.f.t1.value) "></td>
+<td style="padding:5px"><input type="button" value="/" onclick="document.f.t1.value+='/'"></td>
+</form>
+</body>
+</html>
