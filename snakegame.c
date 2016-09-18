@@ -12,11 +12,9 @@ int m[500],n[500],con=20;
 clock_t start,stop;	 
 void main(void)
 {
-
 int gd=DETECT,gm,ch,maxx,maxy,x=13,y=14,p,q,spd=100;
 
 initgraph(&gd,&gm,"..\bgi");
-
 setcolor(WHITE);
 settextstyle(3,0,6);
 outtextxy(200,2," SNAKE 2 ");
